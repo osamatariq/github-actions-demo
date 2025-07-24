@@ -15,6 +15,7 @@ def backwards_string(random_string):
 
 @app.route('/get-mode')
 def get_mode():
+    # comment to check secrets
     return os.environ.get("MODE")
 
 
